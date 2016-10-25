@@ -1,0 +1,9 @@
+[submodule "spoiless-chrome-extension"]
+	path = spoiless-chrome-extension
+	url = https://github.com/luciencd/spoiless-chrome-extension
+[submodule "spoiless-backend"]
+	path = spoiless-backend
+	url = https://github.com/luciencd/spoiless-backend
+[submodule "spoiless-machinelearning"]
+	path = spoiless-machinelearning
+	url = https://github.com/luciencd/spoiless-machinelearning
