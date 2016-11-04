@@ -1,0 +1,18 @@
+version: '2.0'
+services:
+  app:
+    build: spoiless-backend
+    ports:
+      - "5000:5000"
+    links:
+      - mysql
+    depends_on:
+      - mysql
+
+  mysql:
+    image: mysql:5.6
+    expose:
+      - "5432"
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=spoiless
