@@ -4,6 +4,10 @@ To test out using Docker:
 
 $ git clone "https://github.com/luciencd/spoiless/"
 
+//May not be necessary on all git versions
+$ git submodule update --init --recursive
+//
+
 $ docker-compose build
 
 $ docker-compose up
